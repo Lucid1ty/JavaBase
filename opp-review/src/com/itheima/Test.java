@@ -3,7 +3,7 @@ package com.itheima;
 public class Test {
     public static void main(String[] args) {
         //创建对象
-        Student s1 = new Student();  //通过无参构造器创建对象
+        Student s1 = new Student();  //通过调用无参构造器创建对象
         //通过:对象.set方法注入信息
         s1.setName("张三");
         s1.setAge(18);
